@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.section-head {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-lead {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+
+.navbar {
+    background-color: #e8e5e5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+    
+    
+    
+}
+
+.nav-link {
+    color: #000000;
+    padding: 30px;
+    background-color: #ffffff;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    
+}
+.nav-1:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+
+.hero {
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/Web_images/coffie_plant3.jpg');
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.hero-title {
+    font-size: 45px;
+}
+
+.hero-lead {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.hero-btn {
+    background: #ffffff;
+    color: #000000;
+    padding: 8px;
+    font-size: 25px;
+    margin-top: 75px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.hero-btn:hover {
+    background: #2a74ff;
+    color: #ffffff;
+}
+.attractions-c {
+    position: relative;
+    text-align:center;
+    padding: 30px;
+    font-size: 30px;
+    background-color: beige;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 0%;
+}
+.attractions-cb {
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.coffee-text {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.img-att {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.section-head-cff {
+  margin: 20px;
+  background-color: #ffffff;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.about {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px; 
+    background-color:#A1BBC4;
+    border-radius: 30px;
+
+}
+
+.about-layout-coffee {
+  background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid black;
+
+}
+
+.about-layout-coffee-l {
+  background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid black;
+
+}
+
+.coffee-img {
+    border-radius: 15px;
+    margin: 10px;
+}
+.points-head {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 22px;
+}
+.coffee-types {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+.coffee-img-1 {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.coffee-img-1:hover {
+    transform: scale(1.2);
+    transition: 0.6s ease;
+}
+.coffee-img:hover {
+     transform: scale(1.1);
+    transition: 0.6s ease;
+}
+
+.explore {
+    padding:35px;
+}
+
+.section-head-explore {
+   background-color: #ffffff;
+  padding:  20px;
+  margin-left:200px;
+  margin-right: 200px;
+  text-align: center;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.main-explore {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sub-explore {
+  font-size: 25px;
+  font-style: italic;
+}
+.card-h3 {
+  padding-top: 10px;
+  color: #C0D6FF;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  padding-bottom: 10px;
+  text-decoration: underline 2px solid #ffffff;
+}
+.card-p {
+  text-align: start;
+  font-size: 15px;
+  padding: 8px;
+}
+.container {
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    padding: 25px;
+
+}
+
+
+
+
+
+
+/* This container is needed to position the front and back side */
+.card1 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card-main1:hover .card1 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.card-front-side1, .card-back-side1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front-side1 {
+  background-color: #bbb;
+  color: black;
+}
+.card-front-side1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the back side */
+.card-back-side1 {
+  background-color: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  padding: 10px; 
+  text-align: center;
+}
+
+.card-main2 {    
+    perspective: 1000px;  
+     /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.card2 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card-main2:hover .card2 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.card-front-side2, .card-back-side2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front-side2 {
+  background-color: #bbb;
+  color: black;
+}
+.card-front-side2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the back side */
+.card-back-side2 {
+  background-color: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-main3 {    
+    perspective: 1000px;  
+     /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.card3 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card-main3:hover .card3 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.card-front-side3, .card-back-side3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front-side3 {
+  background-color: #bbb;
+  color: black;
+}
+.card-front-side3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the back side */
+.card-back-side3 {
+  background-color: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-main4 {    
+    perspective: 1000px;  
+     /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.card4 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card-main4:hover .card4 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.card-front-side4, .card-back-side4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front-side4 {
+  background-color: #bbb;
+  color: black;
+}
+.card-front-side4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the back side */
+.card-back-side4 {
+  background-color: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.contact {
+    padding: 35px;
+    background-color:#A1BBC4;
+   
+
+}
+.section-head-contact {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+
+
+.contact-card {
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding:  30px;
+    width: 650px;
+    max-width: 100%;
+    margin: auto;
+    border: 3px solid black;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+.btn-primary {
+    background-color: #2a74ff;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+}
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+footer {
+    background: #000000;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.coffee-t{
+  background-color:beige;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
